@@ -37,4 +37,4 @@
 ## `7.Check if Script is Run`:
    - The script has the standard `if __name__ == "__main__":` line inside which execution of code will take place.
 
-## `This script is quite user-friendly in nature, as it neatly prompts the user, and common errors appear to have been handled in a smooth manner. Considering that the script performs basic arithmetic, the code is basic and functional.`
+### `This script is quite user-friendly in nature, as it neatly prompts the user, and common errors appear to have been handled in a smooth manner. Considering that the script performs basic arithmetic, the code is basic and functional.`
