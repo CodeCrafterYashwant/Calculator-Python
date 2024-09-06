@@ -1,11 +1,11 @@
 # Simple-Calculator
  This Python script is a simple calculator capable of performing a number of arithmetics depending on a user's input choice. Works as follows:
 
-### `1.Floating Point Numbers Input Validation`:
+## `1.Floating Point Numbers Input Validation`:
 It will prompt the user to enter the values of `a` and `b`. Anything the user will enter, it will be valid to create floating point numbers. If the user inputs something that isn't a number, it catches the `ValueError` and asks again.
 
-### `2.Printing a Welcome Message`:
-- This script, after taking the input values, prints out a centered, uppercase message, saying that a calculator is under development.
+## `2.Printing a Welcome Message`:
+This script, after taking the input values, prints out a centered, uppercase message, saying that a calculator is under development.
 
 3. **Printing Options of Menu:**
    - The next things it does is provide a menu to the user for performing arithmetic operations like addition, subtraction, multiplication, exponentiation, division, floor division, and modulus.
