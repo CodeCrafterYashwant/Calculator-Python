@@ -1,2 +1,2 @@
 # Simple-Calculator
- Here I created calculator using Python.
+ In this Python implementation, I have developed a simplistic calculator that enables  user to insert two numbers and even pick some operations from the options (addition, subtraction, multiplication, exponentiation, division, floor division, and modulus). User inputs are checked by the program, the specified operation is performed, and the result is displayed. Although this calculator is elementary in nature, it is the stepping stone for more intricate applications.
