@@ -1,4 +1,4 @@
-                                    #CREATING CALCULATOR USING PYTHON
+                                    #CREATING CALCULATOR USING PYTHONy
 
 def calculator():
     # Loop to get the first number from the use
