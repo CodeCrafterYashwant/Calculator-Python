@@ -1,54 +1,63 @@
 
-# 🧮 Python Console Calculator
-
-This project is a simple **command-line calculator** built using **Python**. It allows users to perform basic arithmetic operations including addition, subtraction, multiplication, division, modulus, exponentiation, and floor division.
-
----
-
-## 🚀 Features
-
-- User-friendly interactive prompts
-- Input validation and error handling
-- Supports continuous calculations until the user decides to exit
-- Handles divide-by-zero and invalid input gracefully
+<h1 align="center">🧮 Python Command-Line Calculator</h1>
+<p align="center">A beginner-friendly Python project to perform arithmetic operations through the terminal.</p>
 
 ---
 
-## 📋 Supported Operations
+## ✨ Overview
 
-| Option | Operation         | Description                                 |
-|--------|------------------|---------------------------------------------|
-|   1    | Addition          | Adds two numbers                            |
-|   2    | Subtraction       | Subtracts second number from first          |
-|   3    | Multiplication    | Multiplies two numbers                      |
-|   4    | Division          | Divides first number by second              |
-|   5    | Modulus           | Computes the remainder of the division      |
-|   6    | Exponentiation    | Raises first number to the power of second  |
-|   7    | Floor Division    | Performs floor division on the two numbers  |
+This Python-based **command-line calculator** is a lightweight tool designed for quick and simple arithmetic operations. Whether you're new to Python or just need a functional calculator script, this project is for you!
 
 ---
 
-## 💻 How to Run
+## ⚙️ Features
 
-1. Save the script in a file named `calculator.py`.
-
-2. Run the script using Python:
-
-   ```bash
-   python calculator.py
-   ```
-
-3. Follow the prompts in the console to perform operations.
+✅ Interactive text-based interface  
+✅ Input validation with helpful error messages  
+✅ Graceful handling of divide-by-zero and other edge cases  
+✅ Looping feature for continuous calculations  
+✅ Clear, color-coded messages (optional for enhancement)
 
 ---
 
-## 🧠 Example Usage
+## 🧠 Operations Supported
+
+| Option | Operation         | Example (a = 10, b = 3)     | Result        |
+|--------|------------------|-----------------------------|---------------|
+|   1    | Addition          | 10 + 3                      | 13            |
+|   2    | Subtraction       | 10 - 3                      | 7             |
+|   3    | Multiplication    | 10 × 3                      | 30            |
+|   4    | Division          | 10 ÷ 3                      | 3.33 (approx) |
+|   5    | Modulus           | 10 % 3                      | 1             |
+|   6    | Exponentiation    | 10 ** 3                     | 1000          |
+|   7    | Floor Division    | 10 // 3                     | 3             |
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Python 3.x installed on your system
+
+### 💻 How to Run
+
+```bash
+# Clone or download the script
+python calculator.py
+```
+
+Follow the on-screen prompts to perform calculations.
+
+---
+
+## 📸 Sample Run
 
 ```
-Type the value of 'a': 10
-Type the value of 'b': 5
+Type the value of 'a': 5
+Type the value of 'b': 2
 
-WE ARE GOING TO CREATE A CALCULATOR.
+                     WE ARE GOING TO CREATE A CALCULATOR.
 
 What you want to perform.
 1.Sum
@@ -59,23 +68,35 @@ What you want to perform.
 6.Exponentiation
 7.Floor Division
 Type chosen option: 1
-The sum of 10.0 and 5.0 is 15.0.
+The sum of 5.0 and 2.0 is 7.0.
 type 1 for continue/0 for stop: 0
 Ok, Thanks for using.
 ```
 
 ---
 
-## 🛠️ Requirements
+## 💡 Tips for Improvement
 
-- Python 3.x
+Want to take it further? Here are some enhancements you can try:
 
-No external libraries are required.
+- Add support for keyboard shortcuts (e.g., pressing "+" for addition)
+- Add colored text output using `colorama`
+- Save operation history to a `.txt` or `.csv` file
+- Build a GUI using `tkinter` or a web version using `Flask`
 
 ---
 
-## ⚠️ Notes
+## 🙌 Contributing
 
-- Ensure you enter numeric inputs when prompted.
-- Division and floor division by zero are not allowed and are handled with an appropriate message.
-- Optionally, you can improve the program by adding more advanced mathematical functions, GUI support, or saving history to a file.
+If you're a beginner, feel free to fork this and try out your own improvements. Contributions and feedback are always welcome!
+
+---
+
+## 📄 License
+
+MIT © 2025 [Yashwant Namdev](https://github.com/CodeCrafterYashwant)  
+See [LICENSE](LICENSE) for full details.
+
+---
+
+<p align="center">💻 Made with Python • Beginner Friendly • 100% Open Source</p>
