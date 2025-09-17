@@ -79,7 +79,6 @@ Ok, Thanks for using.
 
 Want to take it further? Here are some enhancements you can try:
 
-- Add support for keyboard shortcuts (e.g., pressing "+" for addition)
 - Add colored text output using `colorama`
 - Save operation history to a `.txt` or `.csv` file
 - Build a GUI using `tkinter` or a web version using `Flask`
